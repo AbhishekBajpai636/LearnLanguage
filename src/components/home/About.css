@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Container and Card Styles */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .bg-body-tertiary {
+    background-color: #e9ecef;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  /* Typography */
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .display-5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .display-5 {
+      font-size: 2rem;
+    }
+  }
+  /* About.css */
+
+.page {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.page.light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.page.dark {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+  
